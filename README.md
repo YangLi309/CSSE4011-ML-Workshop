@@ -2,12 +2,6 @@
 
 Hands-on notebook for CSSE4011: train and compress a small vision model, then export it for deployment.
 
-## Finetune and Export Your Model in Colab
-
-**[Open the notebook in Google Colab](https://colab.research.google.com/github/YangLi309/CSSE4011-ML-Workshop/blob/main/CSSE4011_ML.ipynb)**
-
-Use a **GPU** runtime (e.g., T4 GPU). Run the cells in order, and read the instructions and comments carefully to understand what each part is doing.
-
 ## What’s in the workshop
 
 - Fine-tune pretrained **AlexNet** on **MNIST** with PyTorch  
@@ -16,11 +10,19 @@ Use a **GPU** runtime (e.g., T4 GPU). Run the cells in order, and read the instr
 - **Quantize** ONNX models to FP16 and convert them to **TensorRT** engines  
 - Compile and test **image inference** and **video inference** pipelines on the edge device  
 
+
+
+## Task 1: Finetune and Export Your Model in Colab
+
 Notebook: `CSSE4011_ML.ipynb`
+
+**[Open the notebook in Google Colab](https://colab.research.google.com/github/YangLi309/CSSE4011-ML-Workshop/blob/main/CSSE4011_ML.ipynb)**
+
+Use a **GPU** runtime (e.g., T4 GPU). Run the cells in order, and read the instructions and comments carefully to understand what each part is doing.
 
 The exported ONNX models can also be downloaded from **[Google Drive](https://drive.google.com/drive/folders/1HAUrQRe-iRyVTkpbbwrqvOe5XdypbjsJ?usp=sharing)**
 
-## Deploy Your Model on Jetson
+## Task 2: Deploy Your Model on Jetson
 
 ### 1. Quantize and Convert to TensorRT Engine
 
